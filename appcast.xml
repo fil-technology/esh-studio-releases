@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Esh Studio</title>
+        <item>
+            <title>3.4</title>
+            <pubDate>Mon, 21 Sep 2026 21:14:46 +0300</pubDate>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio.3.4.zip" length="38046387" type="application/octet-stream" sparkle:edSignature="9Oa2LTnfKmUUFmPgP4eBpvMpi4HR5vLtTA1URRWkCMkiqfpis9kEiqbUtNi41FJkwgVJCjTW/li1Lu7FSFJbDg=="/>
+        </item>
+    </channel>
+</rss>
