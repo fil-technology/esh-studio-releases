@@ -1,0 +1,3 @@
+# macOS junk (build artifacts from the exFAT SSD carry ._* sidecars)
+._*
+.DS_Store
