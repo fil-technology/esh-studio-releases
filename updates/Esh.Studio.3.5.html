@@ -1,0 +1,10 @@
+<h2>On-device MLX text models</h2>
+<p>Esh Studio can now run large MLX text models on your Mac through esh — including Qwen3-30B-A3B (4-bit).
+Pick an MLX model in the chat model picker and generate; responses stream in, attributed to the exact
+on-device model.</p>
+<ul>
+  <li><b>Zero-setup runtime</b> — on first use esh provisions an isolated Python runtime with <code>mlx-lm</code> automatically. No Homebrew, no Anaconda, no global pip, no duplicate downloads, and no app restart.</li>
+  <li><b>Honest readiness</b> — a model's memory fit is reported separately from whether its MLX runtime is ready; esh refuses a model with a clear error rather than pretending it can run.</li>
+  <li><b>Streaming, cancellation &amp; recovery</b> — Stop halts a run immediately and frees the worker's memory.</li>
+</ul>
+<p>Apple Intelligence and local GGUF models work exactly as before. Your saved conversations are untouched.</p>

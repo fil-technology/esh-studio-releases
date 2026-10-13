@@ -3,6 +3,29 @@
     <channel>
         <title>Esh Studio</title>
         <item>
+            <title>3.5</title>
+            <pubDate>Tue, 13 Oct 2026 10:20:56 +0300</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>On-device MLX text models</h2>
+<p>Esh Studio can now run large MLX text models on your Mac through esh — including Qwen3-30B-A3B (4-bit).
+Pick an MLX model in the chat model picker and generate; responses stream in, attributed to the exact
+on-device model.</p>
+<ul>
+  <li><b>Zero-setup runtime</b> — on first use esh provisions an isolated Python runtime with <code>mlx-lm</code> automatically. No Homebrew, no Anaconda, no global pip, no duplicate downloads, and no app restart.</li>
+  <li><b>Honest readiness</b> — a model's memory fit is reported separately from whether its MLX runtime is ready; esh refuses a model with a clear error rather than pretending it can run.</li>
+  <li><b>Streaming, cancellation &amp; recovery</b> — Stop halts a run immediately and frees the worker's memory.</li>
+</ul>
+<p>Apple Intelligence and local GGUF models work exactly as before. Your saved conversations are untouched.</p>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio.3.5.zip" length="43852130" type="application/octet-stream" sparkle:edSignature="KKLqhNp1mdaaY5xDLF8eM7ZSnkBI0DMz68KfpXtDKJ2p0hpbZ7mPbNGM3LGm9BSa2hH7lEGPTG8bGqK4x2DFDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio68-66.delta" sparkle:deltaFrom="66" length="15050078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vXPWuy9d89fkPqapq6+3A3VYKeefwzWWnLBc7j2LNaDALOnfXLICbVwlG5UOCJkc7lNAOURuVmcI3MffBhZSBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.4</title>
             <pubDate>Mon, 21 Sep 2026 21:14:46 +0300</pubDate>
             <sparkle:version>66</sparkle:version>
