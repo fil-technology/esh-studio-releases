@@ -3,6 +3,32 @@
     <channel>
         <title>Esh Studio</title>
         <item>
+            <title>3.6</title>
+            <pubDate>Wed, 14 Oct 2026 15:27:21 +0300</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Trustworthy, transparent, recoverable</h2>
+<p>Esh Studio 3.6 makes on-device generation easier to trust — one clear way to choose a model,
+honest provenance on every result, and errors that actually help.</p>
+<ul>
+  <li><b>One model picker everywhere</b> — Chat, Imagine, Audio and Create share the same control. Pick a model and it <i>actually runs</i>: explicit choices are honored exactly, never silently swapped. A thread remembers the model you chose for it, per capability, and the Settings "Default model" now really applies. "Auto" still lets Esh choose the best fit.</li>
+  <li><b>Honest provenance</b> — every answer shows the model that <i>actually produced it</i>, not an assumption; image, audio, website and SVG results carry the real provider that made them. Models show their real engine (MLX / GGUF / Apple) and whether they fit your Mac's memory.</li>
+  <li><b>Recovery that works</b> — when something can't run you get a clear reason and a button that does the right thing (Open Models, Set up, Free space, Open Settings, Try again) — never a dead end. Out-of-storage now says so plainly instead of a generic failure.</li>
+  <li><b>Clear model storage</b> — if your configured model storage can't be reached (for example an external drive is disconnected), Esh Studio now explains exactly what's wrong and where your models are configured, instead of looking empty. Nothing is moved, deleted or re-downloaded, and Apple Intelligence still works for chat.</li>
+  <li><b>Trustworthy runs</b> — Stop keeps what was already written and marks the turn honestly as stopped; the on-device MLX runtime shows its setup state and sets itself up without a restart.</li>
+</ul>
+<p>Existing conversations, settings and installed models carry over automatically. No changes to your data,
+your model files, or where they're stored.</p>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio.3.6.zip" length="43920481" type="application/octet-stream" sparkle:edSignature="YRim6aM+/stSgy//myvp/KkrVbiUHk24iWEBUp/DVN29BFOhGyfOsbcNoiXdCmZuJrDtboNjxFKG/VswPC1GAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio70-68.delta" sparkle:deltaFrom="68" length="4011194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8qzW4+9MxfvBe7S4Pwmk65hgi/xHNjjZlVPni2lmcWMvrWLdwHCjQUm2xcSgtCm4qEVRWaPpNHJqiErFZpwPCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio70-66.delta" sparkle:deltaFrom="66" length="15562142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9XfSkI8qLi3jm2aNDIoIMr06K9EB0sa975HtgWunFJGRZkUa+zlmF15iR03VOtxTvd/KkCiKICQdaEPjREntBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.5</title>
             <pubDate>Tue, 13 Oct 2026 10:20:56 +0300</pubDate>
             <sparkle:version>68</sparkle:version>
