@@ -25,11 +25,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/fil-technology/esh-studio-releases/releases/download/updates/Esh.Studio.3.7.0.zip" length="44237323" type="application/octet-stream" sparkle:edSignature="+Cgc4mgdajNMkYyyOoHW2XwyE0mBJ+NIvHeTmzVrq5n3bZHGbPE7tKPlqU59gAFLiINy/QF9mvXHeyvKHoXvCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio71-70.delta" sparkle:deltaFrom="70" length="7520098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sOdvPjH3/40qwGfAr9BOgpIVIoBwtSlkzKmJb5B1LC0KZEAMTKLH4UKFQMJZrD6dlycGeuOAQK5d0WRiv62xBQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio71-68.delta" sparkle:deltaFrom="68" length="7718430" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Iwk6L38AhhT+ZV/Y8Z6UYpszpMVHEJzgXGl0Z3g3Gm629Ve17F1hblZZDvng4B1BxiHE0Um7p4Ggzqf9C/lkDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio71-66.delta" sparkle:deltaFrom="66" length="14897474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wSUSYM6cYd9obNuhoxDl18xyMqB1HplSRjqUj4H4su+EIjsI/Faslwb1Fn+ZJEP2hVtusAWChqJcYUs+e8MZCw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.6</title>
@@ -52,10 +47,6 @@ honest provenance on every result, and errors that actually help.</p>
 your model files, or where they're stored.</p>
 ]]></description>
             <enclosure url="https://github.com/fil-technology/esh-studio-releases/releases/download/updates/Esh.Studio.3.6.zip" length="43920481" type="application/octet-stream" sparkle:edSignature="YRim6aM+/stSgy//myvp/KkrVbiUHk24iWEBUp/DVN29BFOhGyfOsbcNoiXdCmZuJrDtboNjxFKG/VswPC1GAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio70-68.delta" sparkle:deltaFrom="68" length="4011194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8qzW4+9MxfvBe7S4Pwmk65hgi/xHNjjZlVPni2lmcWMvrWLdwHCjQUm2xcSgtCm4qEVRWaPpNHJqiErFZpwPCg=="/>
-                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio70-66.delta" sparkle:deltaFrom="66" length="15562142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9XfSkI8qLi3jm2aNDIoIMr06K9EB0sa975HtgWunFJGRZkUa+zlmF15iR03VOtxTvd/KkCiKICQdaEPjREntBQ=="/>
-            </sparkle:deltas>
         </item>
     </channel>
 </rss>
