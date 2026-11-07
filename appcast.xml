@@ -3,6 +3,21 @@
     <channel>
         <title>Esh Studio</title>
         <item>
+            <title>3.7.1</title>
+            <pubDate>Sat, 07 Nov 2026 17:37:54 +0200</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>3.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio.3.7.1.zip" length="44243209" type="application/octet-stream" sparkle:edSignature="oU12paMcWBArZlPhoEfHAbta0btfzDfeyftYB3lnLbciPR7RDU9k6Luf7C4XW68bkBD15TM29fJh/9rBr1y9Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio72-71.delta" sparkle:deltaFrom="71" length="2790494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/9DRHG+PwFKE+wXjlGatw6Xm089bs9f44/1TKiaVLSouF5GsJpIozuyLhL5FO+BoA1qMFXn5aYdPGKkypLLXBg=="/>
+                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio72-70.delta" sparkle:deltaFrom="70" length="7447002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bCjnhmC02LXG8gFPud87fz8wkXvyNc9AXjiB9j+WAqXthVjz3IeeViktXctG7ZSnREQUZBeuK2IARA0KyuZ3DQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio72-68.delta" sparkle:deltaFrom="68" length="7777690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="s0DJRa5zPs0Btl3bCXEs64HMCkzO80uYShhNZ5eHPzcJdAck4s+3bUqJMfaYdZjhPTltxze14Wjbr5yndNagCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio72-66.delta" sparkle:deltaFrom="66" length="14922334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NAglPDlCcwcdBgrEbjZEqDH1cDa8joRmdqhwzmXavYa/2tbnY8VnMpO8sXhULiG5B15bF5/0491s63LyDjdcDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.7.0</title>
             <pubDate>Sat, 07 Nov 2026 16:09:08 +0200</pubDate>
             <sparkle:version>71</sparkle:version>
@@ -40,29 +55,6 @@ your model files, or where they're stored.</p>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio70-68.delta" sparkle:deltaFrom="68" length="4011194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8qzW4+9MxfvBe7S4Pwmk65hgi/xHNjjZlVPni2lmcWMvrWLdwHCjQUm2xcSgtCm4qEVRWaPpNHJqiErFZpwPCg=="/>
                 <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio70-66.delta" sparkle:deltaFrom="66" length="15562142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9XfSkI8qLi3jm2aNDIoIMr06K9EB0sa975HtgWunFJGRZkUa+zlmF15iR03VOtxTvd/KkCiKICQdaEPjREntBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>3.5</title>
-            <pubDate>Tue, 13 Oct 2026 10:20:56 +0300</pubDate>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>3.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>On-device MLX text models</h2>
-<p>Esh Studio can now run large MLX text models on your Mac through esh — including Qwen3-30B-A3B (4-bit).
-Pick an MLX model in the chat model picker and generate; responses stream in, attributed to the exact
-on-device model.</p>
-<ul>
-  <li><b>Zero-setup runtime</b> — on first use esh provisions an isolated Python runtime with <code>mlx-lm</code> automatically. No Homebrew, no Anaconda, no global pip, no duplicate downloads, and no app restart.</li>
-  <li><b>Honest readiness</b> — a model's memory fit is reported separately from whether its MLX runtime is ready; esh refuses a model with a clear error rather than pretending it can run.</li>
-  <li><b>Streaming, cancellation &amp; recovery</b> — Stop halts a run immediately and frees the worker's memory.</li>
-</ul>
-<p>Apple Intelligence and local GGUF models work exactly as before. Your saved conversations are untouched.</p>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh.Studio.3.5.zip" length="43852130" type="application/octet-stream" sparkle:edSignature="KKLqhNp1mdaaY5xDLF8eM7ZSnkBI0DMz68KfpXtDKJ2p0hpbZ7mPbNGM3LGm9BSa2hH7lEGPTG8bGqK4x2DFDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/fil-technology/esh-studio-releases/main/updates/Esh%20Studio68-66.delta" sparkle:deltaFrom="66" length="15050078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vXPWuy9d89fkPqapq6+3A3VYKeefwzWWnLBc7j2LNaDALOnfXLICbVwlG5UOCJkc7lNAOURuVmcI3MffBhZSBw=="/>
             </sparkle:deltas>
         </item>
     </channel>
